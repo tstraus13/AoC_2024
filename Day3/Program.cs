@@ -1,8 +1,8 @@
 ﻿using System.Text.RegularExpressions;
 
-var p1Data = File.ReadAllText("d3_data.txt");
-var p1Result = Part1(p1Data);
-var p2Result = Part2(p1Data);
+var d3Data = File.ReadAllText("d3_data.txt");
+var p1Result = Part1(d3Data);
+var p2Result = Part2(d3Data);
 
 Console.WriteLine(p1Result);
 Console.WriteLine(p2Result);
